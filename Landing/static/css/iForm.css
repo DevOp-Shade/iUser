@@ -1,0 +1,29 @@
+.iLogo {
+    color: grey;
+    text-align: center;
+}
+
+.formI {
+    color: grey;
+    display: inline-block;
+}
+
+body {
+    background-color: rgb(60, 60, 60);
+    display: grid;
+    grid-template-areas: 'Form iLogo img';
+    grid-template-columns: 275px 275px 275px;
+}
+
+.firstName {
+    color:  white;
+}
+
+.formIlogoContainer{
+    display: grid;
+}
+
+.formIlogo img{
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iLogin</title>
+    <script defer src="../static/javascript/script.js"></script>
+</head>
+<body>
+    <!-- Form for User Registration -->
+        <div class="iLogo">
+    <h2>iLogin</h2>
+        </div>
+    <form id="formI" action="/User/Main/templates/imain.html" method="GET">
+        <div class="containeriF">
+    <label for="firstName">First Name</label>
+    <input id="firstName" name="firstName" type="text" placeholder="First Name">
+        </div>
+        <div class="containeriL">
+    <label for="lastName">Last Name</label>
+    <input id="lastName" name="lastName" type="text" placeholder="Last Name">
+        </div>
+        <div class="containerIEm">
+    <label for="email">Email</label>
+    <input id="email" name="Email" placeholder="email">
+        </div>
+        <div class="containeriP">
+    <label for="password">Password</label>
+    <input id="password" name="password" type="password" placeholder="password">
+        </div>
+    <button type="submit">submit</button>
+    </form>
+</body>
+</html>
