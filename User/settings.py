@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'iUsers.apps.IuserConfig',
     'iUserForm.apps.IuserformConfig',
     'iUserLogin.apps.IuserloginConfig'
+    'iCode.apps.IcodeConfig'
 ]
 
 MIDDLEWARE = [
