@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+
+.iNavContainer {
+    display: grid;
+    grid-template-areas: 'iLogo iNav' ;
+}
+
+.iNav a {
+    color: grey;
+
+}
+
+.iNav:hover {
+    color: rgb(255, 255, 255);
+}
+
+.iNav li {
+    display: inline-block;
+}
+
+.iLogo h2{
+    color: grey;
+    float: left;
+}
