@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iForm</title>
+    <script defer src="../static/javascript/iscript.js" type="module"></script>
+    <link rel="stylesheet" href="{% static 'css/iForm.css' %}">
+</head>
+<body>
+
+    {% %}
+    <!-- Form for User Registration -->
+    <form id="formI" action="{% url 'iMain' %}" method="GET">
+        <div class="containeriF">
+    <label class="firstNameLabel" for="firstName">First Name</label>
+    <input id="firstName" name="firstName" type="text" placeholder="First Name" required>
+        </div>
+        <div class="containeriL">
+    <label class="lastNameLabel" for="lastName">Last Name</label>
+    <input id="lastName" name="lastName" type="text" placeholder="Last Name" required>
+        </div>
+        <div class="containerIEm">
+    <label for="email">Email</label>
+    <input id="email" name="Email" placeholder="email" required>
+        </div>
+        <div class="containeriP">
+    <label for="password">Password</label>
+    <input id="password" name="password" type="password" placeholder="password" required>
+        </div>
+    <button type="submit">submit</button>
+    </form>
+        <div class="iLogo">
+    <h2>iForm</h2>
+        </div>
+        <div class="formIlogoContainer">
+            <div class="formIlogo">
+    <img  src="../static/images/Globe.jpg" alt="">
+            </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+}
+
+h3 {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-shadow: 10px rgb(154, 1, 1);
+}
+
+h2 {
+    color: rgb(156, 156, 156);
+}
+
+li h1 a {
+    color: rgb(156, 156, 156);
+    text-decoration: none;
+
+}
+
+li h1 {
+    text-align: center;
+}
+
+li.Register h2 a {
+    color: rgb(158, 157, 157);
+    text-decoration: none;
+    text-shadow: 6px red;
+}
+.logo {
+    color: grey;
+}
+
+header {
+    background-image: url('../images/images-4.jpeg');
+    background-position: center;
+    background-repeat: inherit;
+}
